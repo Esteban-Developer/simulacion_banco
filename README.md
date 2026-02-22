@@ -36,7 +36,7 @@ El ejercicio permite evidenciar el impacto real de la concurrencia en sistemas d
 * Lock (Candado)
 * Simulación de tiempo de atención con `time.sleep()`
 
-## 🏗️structura del proyecto
+## Estructura del proyecto
 
 ```
 /proyecto-banco
@@ -46,7 +46,7 @@ El ejercicio permite evidenciar el impacto real de la concurrencia en sistemas d
 └── README.md
 ```
 
-## ⚙️uncionamiento del sistema
+## ⚙️Funcionamiento del sistema
 
 ###  Servidor (Banco)
 
@@ -88,7 +88,7 @@ Ahora (con concurrencia):
 * Tiempo aproximado mucho menor
 * Se evidencia la eficiencia de los hilos
 
-## ⚠️roblema encontrado: Condición de carrera
+## ⚠️Problema encontrado: Condición de carrera
 
 Inicialmente se usó:
 
