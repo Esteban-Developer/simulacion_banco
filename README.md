@@ -36,7 +36,7 @@ El ejercicio permite evidenciar el impacto real de la concurrencia en sistemas d
 * Lock (Candado)
 * Simulación de tiempo de atención con `time.sleep()`
 
-## 🏗️Estructura del proyecto
+## 🏗️structura del proyecto
 
 ```
 /proyecto-banco
@@ -46,7 +46,7 @@ El ejercicio permite evidenciar el impacto real de la concurrencia en sistemas d
 └── README.md
 ```
 
-## ⚙️Funcionamiento del sistema
+## ⚙️uncionamiento del sistema
 
 ###  Servidor (Banco)
 
@@ -88,7 +88,7 @@ Ahora (con concurrencia):
 * Tiempo aproximado mucho menor
 * Se evidencia la eficiencia de los hilos
 
-## ⚠️Problema encontrado: Condición de carrera
+## ⚠️roblema encontrado: Condición de carrera
 
 Inicialmente se usó:
 
@@ -148,7 +148,7 @@ Resultado:
 * El contador funcionó correctamente gracias al Lock
 * No se presentaron inconsistencias en el número de clientes
 
-## 💻 Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 
 ### 1. Ejecutar el servidor
 
