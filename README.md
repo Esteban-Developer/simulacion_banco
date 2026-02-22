@@ -1,9 +1,9 @@
 #  Simulación de Atención Bancaria Concurrente con Sockets en Python
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-Linux-E95420?logo=ubuntu&logoColor=white" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60"/>
 </p>
 
 ##  Descripción del proyecto
@@ -46,7 +46,7 @@ El ejercicio permite evidenciar el impacto real de la concurrencia en sistemas d
 └── README.md
 ```
 
-## ⚙️Funcionamiento del sistema
+## Funcionamiento del sistema
 
 ###  Servidor (Banco)
 
@@ -88,7 +88,7 @@ Ahora (con concurrencia):
 * Tiempo aproximado mucho menor
 * Se evidencia la eficiencia de los hilos
 
-## ⚠️Problema encontrado: Condición de carrera
+## Problema encontrado: Condición de carrera
 
 Inicialmente se usó:
 
@@ -169,7 +169,7 @@ Se evidenció que sin el uso de Lock se producen condiciones de carrera en el co
 
 Además, al agregar un delay de atención, se pudo observar cómo la concurrencia reduce significativamente el tiempo total de procesamiento cuando múltiples clientes son atendidos en paralelo.
 
-## 👨‍💻 Autor
+##  Autor
 
 Esteban Murillo Gómez
 Proyecto académico – Programación Distribuida
